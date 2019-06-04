@@ -1,0 +1,247 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+body{
+	display: flex;
+	flex-direction: column;
+}
+@font-face{
+	font-family: header;
+	src: url(../fonts/datebashvili-2.0.ttf);
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	background: #1319C7;
+	align-items: center;
+	padding: 15px;
+}
+header a{
+	color: #ffffff;
+}
+.pepsi-logo{
+	width: 50px;
+	height: 40px;
+}
+.nav ul{
+	display: flex;
+	list-style-type: none;
+	margin-left: 15px;
+	font-family: header;
+}
+.nav li{
+	margin-right: 20px;
+}
+.second-nav ul{
+	display: flex;
+	list-style-type: none;
+	align-items: center;
+	margin-right: 15px;
+}
+.div{
+	width: 2px;
+	height: 15px;
+	background: white;
+}
+header a:hover{
+	color: #f01231;
+}
+@font-face{
+	font-family: slider;
+	src: url(../fonts/eurostile-lt-std-geo-mt-bold.ttf);
+}
+.hero-content{
+	display: flex;
+	flex-direction: column;
+	font-family: slider;
+	font-size: 30px;
+	background-color: blue;
+	color: #ffffff;
+	align-items: center;
+	position: relative;
+	height: 500px;
+}
+.pepsi-girl{
+	width: 500px;
+	height: 500px;
+}
+.hero-section{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-start;
+	position: absolute;
+}
+.hero-section h1{
+	margin-left: 150px;
+	align-items: flex-start;
+	margin-top: 50px;
+}
+.red-line{
+	width: 100%;
+	background-color: transparent;
+	margin-top: 150px;
+	z-index: 4;
+}
+.body{
+	display: flex;
+	position: relative;
+	align-items: flex-end;
+}
+.body::before{
+	content: "";
+	display: block;
+	width: 100%;
+	height: 150px;
+	background-color: white;
+	position: absolute;
+	top: -150px;
+}
+.blue{
+	height: 500px;
+	width: 450px;
+}
+.yellow{
+	height: 500px;
+	width: 450px;
+}
+@font-face{
+	font-family: agroteskn;
+	src: url(../fonts/AGroteskN.ttf);
+}
+.tittle{
+	font-family: agroteskn;
+	color: #f01231;
+	text-align: center;
+}
+@font-face{
+	font-family: agmoachine;
+	src: url(../fonts/bpg_paata_caps.otf);
+}
+.button{
+	font-family: agmoachine;
+	height: 30px;
+	width: 100px;
+	background-color: #1319C7;
+	text-align: center;
+	color: white;
+	border: none;
+}
+@font-face{
+	font-family: tahoma;
+	src: url(../fonts/BPG_Tahoma_Glaho.ttf);
+}
+.first-box p{
+	font-family: tahoma;
+	color: #005cb4;
+	font-size: 20px;
+}
+.first-box{
+	display: flex;
+	align-items: center;
+}
+.bottle{
+	height: 500px;
+	width: 300px;
+}
+.first-column{
+	color: #005cb4;
+}
+.gagzavne{
+	width: 100px;
+	height: 30px;
+	color: white;
+	background-color: #1319C7;
+	border: none;
+	font-family: agmoachine;
+	text-align: center;
+}
+.second-column{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	margin-left: 150px;
+}
+.second-column input{
+	margin-top: 10px;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	background-color: #1319C7;
+	border: none;
+}
+.second-column button{
+	margin-top: 10px;
+	width: 100px;
+	height: 30px;
+	text-align: center;
+	background-color: #1319C7;
+	border: none;
+	color: white;
+	font-family: agmoachine;
+	border-radius: 30px;
+}
+.middle-line{
+	display: flex;
+}
+.second-box{
+	display: flex;
+	align-items: center;
+}
+.paragraph p{
+	font-family: tahoma;
+	color: #005cb4;
+}
+.body-second-line{
+	margin-left: 50px;
+}
+.other-box{
+	background-color: #1319C7;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+.other-box h2{
+	text-align: center;
+	font-family: agroteskn;
+	color: white;
+	margin-top: 50px;
+}
+.products{
+	display: flex;
+	width: 100px;
+	height: 200px;
+	margin-left: 50px;
+}
+.nav-footer{
+	display: flex;
+	justify-content: space-around;
+}
+.nav-footer li{
+	list-style-type: none;
+}
+.nav-footer a{
+	color: #005cb4;
+}
+.list-footer, .list-footer-second, .list-footer-third{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	font-family: agmoachine;
+}
+footer{
+	color: #005cb4;
+}
+footer p{
+	text-align: center;
+	margin-top: 30px;
+	font-family: tahoma;
+}
+footer img{
+	margin-left: 50px;
+}
